@@ -6,16 +6,5 @@
     <!-- metadata-complete取值为true，表示关闭注解支持 -->
     <!-- metadata-complete取值为false，表示启用注解支持 -->
     <display-name>servletDemo</display-name>
-    <servlet>
-        <!--指定 Servlet 的名称-->
-        <servlet-name>MyServlet</servlet-name>
-        <!--Servlet 的完整限定名（包名+类名）-->
-        <servlet-class></servlet-class>
-    </servlet>
-    <!--定义 Servlet 与 URL 之间的映射-->
-    <servlet-mapping>
-        <!-- Servlet 的名称和虚拟路径-->
-        <servlet-name>MyServlet</servlet-name>
-        <url-pattern>/MyServlet</url-pattern>
-    </servlet-mapping>
+
 </web-app>
